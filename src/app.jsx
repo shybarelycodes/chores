@@ -68,7 +68,7 @@ function getWeekNumber() {
 }
 
 function App() {
-  const roommates = ["Alice", "Bob", "Charlie", "Dana", "Evan"];
+  const roommates = ["Shyam D", "Shyamsundar", "Pitam", "Pradip", "Raman"];
   const chores = ["Vacuuming", "Kitchen Counter", "Sweeping", "Mopping", "Trash"];
 
   const week = getWeekNumber();
