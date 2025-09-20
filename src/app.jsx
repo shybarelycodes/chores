@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
 
-// Reset global browser defaults
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-// Layout wrapper
+
 const Container = styled.div`
   min-height: 100vh;
   display: flex;
@@ -23,7 +23,7 @@ const Container = styled.div`
   padding: 1rem; /* space for smaller screens */
 `;
 
-// Title
+
 const Title = styled.h1`
   color: #d2b48c;
   font-size: 2.5rem;
@@ -35,7 +35,7 @@ const Title = styled.h1`
   }
 `;
 
-// Chore assignment card
+
 const Card = styled.div`
   background: linear-gradient(135deg, #8B5E3C, #5C4033);
   padding: 1.5rem 2rem;
