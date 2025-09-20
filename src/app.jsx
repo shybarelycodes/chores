@@ -8,8 +8,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background-color: #0d0d0d; /* sleek black */
-    color: #f5f5f5;
+    background-color: #f5f5f5; /* light grey background */
+    color: #222; /* dark text for contrast */
     font-family: 'Inter', sans-serif;
   }
 `;
@@ -28,7 +28,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 2rem;
   font-weight: 600;
-  color: #d2b48c; /* tan accent */
+  color: #3a6ea5; /* soft blue accent */
   text-align: center;
 
   @media (min-width: 768px) {
@@ -50,10 +50,10 @@ const Grid = styled.div`
 
 // Chore card
 const Card = styled.div`
-  background: linear-gradient(145deg, #8B5E3C, #5C4033);
+  background: linear-gradient(145deg, #d9eafd, #b0cde8); /* light blue gradient */
   padding: 1.25rem;
   border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
@@ -61,7 +61,7 @@ const Card = styled.div`
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
   }
 `;
 
